@@ -1,0 +1,22 @@
+table tr td {
+    border: 1px solid black;
+}
+.num {
+    color: rgba(0, 0, 0, .5);
+}
+.selected {
+    color: black;
+}
+.possible_choices:hover{
+    background-color: gray;
+}
+#table_text {
+    border: 1px;
+}
+#play_space {
+    display: flex;
+    justify-content: space-around;
+}
+#table_space, #roll_space {
+    width: 40%;
+}
